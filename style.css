@@ -165,7 +165,43 @@
     background-color: #FFC0C7;
     height: 110px;
 }
+.csec:hover{
+    background-color: #ffb3bc;
+}
 .cshsec{
     background-color: #efe069;
     height: 110px;
+}
+.cshsec:hover{
+    background-color: #efde5e;
+}
+.tile1{
+    background-color: whitesmoke;
+}
+.tile1:hover{
+    background-color: rgb(252, 240, 240);
+}
+.tile2{
+    background-color: #D9EEE1;
+}
+.tile2:hover{
+    background-color: #cbebd7;
+}
+.tile3{
+    background-color: #96D4D4;
+}
+.tile3:hover{
+    background-color: #8cd4d4;
+}
+.tile4{
+    background-color: #FFC0C7;
+}
+.tile4:hover{
+    background-color: #faafb8;
+}
+.tile5{
+    background-color: #f3e892;
+}
+.tile5:hover{
+    background-color: #efe280;
 }
