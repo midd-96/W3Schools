@@ -205,3 +205,39 @@
 .tile5:hover{
     background-color: #efe280;
 }
+.tv{
+    width: 80%;
+
+}
+.sliderd{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    border: 0;
+    background-color: red;
+}
+.slideyw{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    border: 0;
+    background-color:yellow;
+}
+.slidegn{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    border: 0;
+    background-color:green;
+}
+.demotext{
+    width: 60%;
+    height: 20px;
+    margin: 5px;
+}
+#carouselExampleIndicators{
+    width: 1000px;
+}
+.tvbtn:hover{
+    background-color: rgb(1, 105, 71) !important;
+}
