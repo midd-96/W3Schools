@@ -1,0 +1,171 @@
+.header{
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+}
+#logoheader{
+    height: 70px;
+}
+.ddhead{
+    /* height: 70px; */
+}
+.ddhead:hover, .ddhead:hover a, .ddhead:hover a button{
+    background-color: rgb(3, 173, 117);
+    color:white;
+}
+.header2leftbtn{
+    /* border: 0; */
+    /* height: 70px; */
+    /* background-color: white; */
+}
+.header2leftbtn:hover{
+    background-color: rgb(3, 173, 117);
+    color:white;
+}
+.new{
+    border: 1.5px solid black;
+    border-radius: 16px;
+    font-size: 12px;
+    padding: 1px 2px;
+    color: black;
+    background-color: white;
+}
+.icon:hover{
+    color: rgb(3, 173, 117);
+}
+.websitebtn{
+    background-color: #FFC0C7;
+    border: 0;
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+}
+.websitebtn:hover{
+    color: white;
+    background-color: rgb(3, 173, 117);
+}
+.paidbtn{
+    background-color:white;
+    border: 0;
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+}
+.paidbtn:hover{
+    color: white;
+    background-color: rgb(3, 173, 117);
+}
+.loginbtn{
+    background-color:rgb(4, 179, 120);
+    color: white;
+    border: 0;
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+}
+.loginbtn:hover{
+    background-color: rgb(3, 173, 117)
+}
+.part1{
+    padding-top: 100px;
+    /* height: 80vh; */
+    background-color: #282A35;
+    
+    
+}
+.part1 h5{
+    color: #FFC0C7;
+}
+.roundedinput{
+    border: 0;
+    border-radius: 20px 0 0 20px;
+    height: 40px;
+    width: 370px;
+    margin-right: -4px;
+    
+}
+.roundedicon{
+    border: 0;
+    border-radius: 0 20px 20px 0;
+    background-color:rgb(3, 173, 117) ;
+    height: 40px;
+    width: 80px;
+}
+.roundedicon:hover{
+    background-color: rgb(6, 138, 94);
+}
+.textbegin:hover{
+    color: rgb(3, 173, 117) !important;
+}
+.part2{
+    background-color: #D9EEE1;
+}
+#htmlbtn{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(6, 138, 94);
+}
+#htmlbtn:hover{
+    background-color: rgb(1, 105, 71)
+}
+#videobtn{
+    width: 200px;
+    height: 40px;
+    background-color: #FFF4A3;
+}
+#videobtn:hover{
+    background-color: #efe069;   
+}
+
+#refbtn{
+    width: 200px;
+    height: 40px;
+}
+#refbtn:hover{
+    background-color: rgb(22, 1, 1);
+}
+.try-btn{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(6, 138, 94);
+}
+.try-btn:hover{
+    background-color: rgb(1, 105, 71);
+}
+.part3{
+    background-color: #FFF4A3;
+}
+.part4{
+    background-color: #282A35;
+}
+.part5{
+    background-color: #F3ECEA;
+}
+.part6{
+    background-color: #96D4D4;
+}
+.phpsec{
+    background-color: #FFC0C7;
+    height: 220px;
+    /* width: 500px; */
+}
+.jquerysec{
+    background-color: #efe069;
+    height: 220px;
+    /* width: 500px; */
+}
+.javasec{
+    height: 220px;
+}
+.cppsec{
+    background-color: #D9EEE1;
+    height: 220px;
+}
+.csec{
+    background-color: #FFC0C7;
+    height: 110px;
+}
+.cshsec{
+    background-color: #efe069;
+    height: 110px;
+}
