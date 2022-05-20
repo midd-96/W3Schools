@@ -99,6 +99,8 @@
 }
 .part2{
     background-color: #D9EEE1;
+    outline: none !important;
+    margin-top: -2px;
 }
 #htmlbtn{
     width: 200px;
@@ -240,4 +242,31 @@
 }
 .tvbtn:hover{
     background-color: rgb(1, 105, 71) !important;
+}
+.iconfooter:hover{
+    background-color: white !important;
+    color: black !important;
+}
+.footerleftbtn button:hover{
+    color: rgb(1, 105, 71) !important;
+}
+.footerleftforum{
+    /* border-right: 2px !important; */
+    border-right: 2px solid white !important;
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 0;
+    
+}
+.desc-footer a:hover{
+    color: rgb(1, 105, 71) !important;
+}
+#thumbsup:hover{
+    color: #ada8a8 !important;
+}
+.lastbtn{
+    background-color: rgb(6, 138, 94);
+}
+.lastbtn:hover{
+    background-color: rgb(1, 105, 71);
 }

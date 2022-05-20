@@ -15,7 +15,7 @@
 
 <body>
     <div class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white w-100">
             <div class="container-fluid">
                 <img id="logoheader" src="/W3Schools/images/logo.webp" alt="logo of W3Schools">
 
@@ -109,7 +109,7 @@
             </div>
         </nav>
     </div>
-    <div class="row part1 m-0">
+    <div class="row part1 py-3 m-0">
         <h1 class="text-white bg-transparent display-4 fw-bold text-center mb-4">Learn to Code</h1>
         <h5 class="fw-bold text-center mb-4">With the world's largest web developer site.</h5>
         <div class="text-center d-flex justify-content-center ">
@@ -121,7 +121,8 @@
         </div>
         <a href="#" class="textbegin mb-0 fw-bold text-white text-center ">Not Sure Where To Begin?</a>
     </div>
-    <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 150" version="1.1"
+    <div class="overflow-hidden">
+    <svg id="wave" class="part2" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 150" version="1.1"
         xmlns="http://www.w3.org/2000/svg">
         <defs>
             <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
@@ -133,6 +134,7 @@
             d="M0,135L80,112.5C160,90,320,45,480,37.5C640,30,800,60,960,62.5C1120,65,1280,40,1440,27.5C1600,15,1760,15,1920,20C2080,25,2240,35,2400,45C2560,55,2720,65,2880,70C3040,75,3200,75,3360,72.5C3520,70,3680,65,3840,72.5C4000,80,4160,100,4320,95C4480,90,4640,60,4800,60C4960,60,5120,90,5280,85C5440,80,5600,40,5760,27.5C5920,15,6080,30,6240,52.5C6400,75,6560,105,6720,110C6880,115,7040,95,7200,77.5C7360,60,7520,45,7680,37.5C7840,30,8000,30,8160,27.5C8320,25,8480,20,8640,17.5C8800,15,8960,15,9120,20C9280,25,9440,35,9600,45C9760,55,9920,65,10080,80C10240,95,10400,115,10560,112.5C10720,110,10880,85,11040,67.5C11200,50,11360,40,11440,35L11520,30L11520,150L11440,150C11360,150,11200,150,11040,150C10880,150,10720,150,10560,150C10400,150,10240,150,10080,150C9920,150,9760,150,9600,150C9440,150,9280,150,9120,150C8960,150,8800,150,8640,150C8480,150,8320,150,8160,150C8000,150,7840,150,7680,150C7520,150,7360,150,7200,150C7040,150,6880,150,6720,150C6560,150,6400,150,6240,150C6080,150,5920,150,5760,150C5600,150,5440,150,5280,150C5120,150,4960,150,4800,150C4640,150,4480,150,4320,150C4160,150,4000,150,3840,150C3680,150,3520,150,3360,150C3200,150,3040,150,2880,150C2720,150,2560,150,2400,150C2240,150,2080,150,1920,150C1760,150,1600,150,1440,150C1280,150,1120,150,960,150C800,150,640,150,480,150C320,150,160,150,80,150L0,150Z">
         </path>
     </svg>
+</div>
 
     <div class="part2 row m-0 ">
         <div class="part2left col-12 col-md-6 col-lg-6">
@@ -445,7 +447,7 @@
             </div>
         </div>
 
-        <div class="bg-white">
+        <div class="bg-white pb-5">
             <div>
                 <h1 class="fw-5 fs-1 text-black text-center mt-5">How To Selection</h1>
                 <h4 class="fw-5 text-black text-center mt-4">Code snippets for HTML, CSS and JavaScript</h4>
@@ -492,9 +494,43 @@
                 </div>
                 <div class="text-center bg-white">
                     <i class="fa-solid fa-square-full mx-auto d-block"></i>
-                    <button class="rounded-pill fw-bold text-white  border-0 bg-dark py-2 text-center px-5 tvbtn">  LEARN HOW TO  </button>
+                    <button class="rounded-pill fw-bold text-white  border-0 bg-dark py-2 text-center px-5 tvbtn"> LEARN
+                        HOW TO </button>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer">
+            <div class="row py-5">
+                <div class="col-md-6 text-center px-5 px-md-0">
+                    <button class="rounded fw-bold">COURSES</button>
+                    <button class="rounded fw-bold">QUIZES</button>
+                    <button class="rounded fw-bold">EXCERCISES</button>
+                    <button class="rounded fw-bold">PRO</button>
+                    <button class="rounded fw-bold">SPACES</button>
+                </div>
+                <div  class="col-md-6 text-center footerleftbtn">
+                    <button class="fw-bold bg-transparent text-white footerleftforum">FORUM </button>
+                    <button class="fw-bold border-0 bg-transparent text-white">ABOUT</button>
                 </div>
                 
+            </div>
+            <div class="text-end ">
+                <button class="border-0 bg-transparent text-white iconfooter iconfooter "><i class="fa-brands fa-facebook-square"></i></button>
+                <button class="border-0 bg-transparent text-white iconfooter iconfooter "><i class="fa-brands fa-instagram"></i></button>
+                <button class="border-0 bg-transparent text-white iconfooter iconfooter "><i class="fa-brands fa-linkedin"></i></button>
+                <button class="border-0 bg-transparent text-white iconfooter iconfooter "><i class="fa-solid fa-robot"></i></button>
+            </div>
+            <div class="text-center pt-4 desc-footer">
+                    
+                <p class="fw-semibold text-white"><small>W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly<br>reviewed to avoid errors, but we cannot warrant full correctness of all content. While using this site, you agree to have read and accepted our <a href="" class="text-white"> terms of use</a>, <a href="" class="text-white"> cookie and privacy policy.</a><br>
+                <a href="" class="text-white"> Copyright 1999-2022</a> by Refsnes Data. All Rights Reserved.</small></p>
+            </div>
+            <div class="text-white fs-1 text-center">
+                <i id="thumbsup" class="fa-regular fa-thumbs-up"></i>
+            </div>
+            <div class="text-center">
+                <button class="rounded-pill fw-bold text-white mt-3  border-0 py-3 px-5 mb-4 lastbtn">W3SCHOOLS SHOP</button>
             </div>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
